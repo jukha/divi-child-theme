@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@font-face {
+    font-family: 'sf_pro_displaysemibold';
+    src: url('https://realgiving.com.au/wp-content/themes/child-divi/fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+         url('https://realgiving.com.au/wp-content/themes/child-divi/fonts/SFProDisplay-Semibold.woff') format('woff'),
+		url('https://realgiving.com.au/wp-content/themes/child-divi/fonts/SFProDisplay-Semibold.ttf')  format('truetype');
+    
+	
+
+}
+/* ===================== */
+/* Thank you pop up */
+.thank-you-container{
+	display:flex;
+	position:relative;
+}
+.thank-you__text{
+	position:absolute;
+	right:0;
+	bottom:0;
+    padding-right: 60px;
+    padding-bottom: 60px;}
+.thank-you__text h2{
+	 font-family: 'SFProDisplay-Semibold' !important;
+  font-size: 80px !important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #171731;
+	padding:0 !important;
+	margin:0 !important;
+}
+.thank-you__text h5{
+	padding:0 !important;
+	margin:0 !important;
+	font-family: "Poppins";
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171731;
+	    max-width: 360px;
+}
+/* ===================== */
+/* Newsletter Form */
+
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"]
+{
+	width:70% !important;
+	font-family:'Poppins';
+	color:#171731 !important;
+  font-size: 18px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+	background:none;
+	border:none;
+	border-bottom:1px solid #171731;
+	padding-bottom:8px !important;
+	margin-bottom:34px !important;
+}
+.newsletter-form .member{
+	max-width:468px;
+	font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171731;
+  margin-bottom:34px;
+}
+
+@media all and (max-width:981px){
+	.newsletter-form input[type="text"],
+	.newsletter-form input[type="email"]{
+		width:100% !important;
+	}
+	
+}
+/* ===================== */
+
+.tagline,
+.sec-header,
+.how-it-works-header,
+.partner-header,
+.features-header,
+.unlock-power-header,
+.testimonial-header,
+.subscribe-header{
+	font-family: 'SFProDisplay-Semibold', sans-serif;
+}
+.partner-section{
+	background: #83cfce;
+}
+.partners .slick-track {
+	display: flex !important;
+	align-items: center;
+}
+.partners .slick-initialized .slick-slide {
+	display: flex;
+    align-items: center;
+}
+.single-partner{
+	margin-left:40px;
+}
+.my-slider {
+  background: #2e5a88;
+  width: 100%;
+}
+.my-slider-row{
+	padding:115px 0px 115px 80px;
+}
+.section-header {
+  	font-family: "Poppins", sans-serif;
+  	font-size: 38px;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #fff;
+	max-width:298px;
+}
+.review-card{
+	margin-left:33px;
+	margin-top:35px;
+}
+.review-parent{
+	padding-right:0px;
+}
+.review-card{
+	padding:24px 29px 78px 29px;
+	background:#fff;
+}
+.customer-name,
+.customer-comment{
+  	font-family: "Poppins";
+  	font-size: 20.2px;
+  	font-weight: 500;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #171731;
+}
+.customer-comment{
+	text-align:justify;
+}
+.quotes-pic{
+	position:absolute;
+	top: -110px;
+    right: 10px;
+}
